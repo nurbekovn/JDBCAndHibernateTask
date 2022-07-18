@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserDao {
 
-    void createUsersTable();
+    void createUsersTable() throws Exception;
 
     void dropUsersTable();
 
